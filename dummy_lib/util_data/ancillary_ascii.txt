@@ -1,4 +1,0 @@
-id,name
-A01,yty
-B03,thy
-A03,jhj
