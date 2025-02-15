@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my_dummy_lib',
+    name='dummy_lib',
     description= 'A dummy library for testing',
     version= '1.0.0',
     license='GNU General Public License v3.0',
