@@ -5,7 +5,7 @@ setup(
     description= 'A dummy library for testing',
     version= '1.0.0',
     license='GNU General Public License v3.0',
-    package_data={'util_data': ['*.txt']}
+    package_data={'../util_data': ['*.txt']}
     include_package_data=True,
     url='https://github.com/oldmanye007/dummy_lib',
     author = 'oldmanye007',
