@@ -10,7 +10,7 @@ py-modules = []
 [project]
 name = "dummy_lib"
 version = "1.0.1"
-dynamic = ["version"]
+
 dependencies = {file = ["requirements.txt"]}
 requires-python = "> 3.9"
 authors = [
