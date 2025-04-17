@@ -1,0 +1,5 @@
+h5netcdf
+matplotlib
+numpy
+pandas
+scipy
