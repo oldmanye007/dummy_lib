@@ -10,7 +10,13 @@ py-modules = []
 [project]
 name = "dummy_lib"
 version = "1.0.1"
-
+dependencies = [
+  "h5netcdf",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "scipy"
+]
 requires-python = "> 3.9"
 authors = [
   {name = "oldmanye007_A", email = "aaa@sample.com"},
