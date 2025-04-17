@@ -1,19 +1,13 @@
 
 [build-system]
-requires = ["setuptools >= 77.0.3"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "dummy_lib"
 version = "1.0.1"
 dynamic = ["version"]
-dependencies = [
-  "h5netcdf",
-  "matplotlib",
-  "numpy",
-  "pandas",
-  "scipy"
-]
+dependencies = {file = ["requirements.txt"]}
 requires-python = "> 3.9"
 authors = [
   {name = "oldmanye007_A", email = "aaa@sample.com"},
