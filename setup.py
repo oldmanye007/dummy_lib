@@ -10,6 +10,7 @@ setup(
     author = 'oldmanye007',
     packages=find_packages(),
     install_requires=['h5netcdf',
+                      'matplotlib',
                       'numpy',
                       'pandas',
                       'scipy'],
