@@ -11,7 +11,6 @@ py-modules = []
 name = "dummy_lib"
 version = "1.0.1"
 
-dependencies = {file = ["requirements.txt"]}
 requires-python = "> 3.9"
 authors = [
   {name = "oldmanye007_A", email = "aaa@sample.com"},
