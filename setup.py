@@ -14,5 +14,5 @@ setup(
                       'numpy',
                       'pandas',
                       'scipy'],
-    python_requires='>3.9.*'
+    python_requires='>3.9'
     )
