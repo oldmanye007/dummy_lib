@@ -1,0 +1,31 @@
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dummy_lib"
+version = "1.0.1"
+dynamic = ["version"]
+dependencies = [
+  "h5netcdf",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "scipy"
+]
+requires-python = "> 3.9"
+authors = [
+  {name = "oldmanye007_A", email = "aaa@sample.com"},
+  {name = "oldmanye007_B", email = "bbb@sample.com"}
+]
+description = "Dummy library for test"
+readme = "README.md"
+keywords = ["imaging spectroscopy", "hyperspectral", "brightness normalization"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/oldmanye007/dummy_lib"
+Repository = "https://github.com/oldmanye007/dummy_lib.git"
