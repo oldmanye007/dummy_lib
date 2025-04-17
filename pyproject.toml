@@ -3,6 +3,10 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+# Ignore flat-layout.
+[tool.setuptools]
+py-modules = []
+
 [project]
 name = "dummy_lib"
 version = "1.0.1"
